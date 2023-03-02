@@ -27,7 +27,7 @@ function Product() {
           return (
             <div key={id} className="hvr-grow products">
               <h3 className="shoe-name">{title} </h3>
-              <h2 className="shoe-price"> ${price} </h2>
+              <h2 className="shoe-price"> Rs{price} </h2>
               <Link key={id} to={`/product/${id}`}>
                 <img
                   className="products-shoe-image"
