@@ -100,8 +100,8 @@ function Cart() {
                     />{" "}
                   </button>
                   <br />
-                  <h2 className="shoe-price-cart"> Rs{price} </h2>
-                  <label htmlFor="quantity">Items </label>{" "}
+                  <h2 className="shoe-price-cart">MRP{price} </h2>
+                  <label htmlFor="quantity">Items</label>{" "}
                   <button
                     className="item-button"
                     onClick={() => store.dispatch(decrementProduct(product))}
