@@ -16,12 +16,12 @@ const PersonalInfoForm = ({ handleNext }) => {
         //
         // Validate FirstName
         firstName: Yup.string()
-          .max(15, "Invalid name")
+          .max("Invalid name")
           .required("required"),
 
         // Validate LastName
         lastName: Yup.string()
-          .max(20, "Invalid name")
+          .max("Invalid name")
           .required("required"),
 
         // Validate Email
